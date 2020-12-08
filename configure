@@ -160,7 +160,7 @@ logfile=$TUPLEMERGE_DIR/errors.log
 
 if [[ ! -d $TUPLEMERGE_DIR ]]; then
 	show "Cloning TupleMerge from GitHub"
-	git clone https://github.com/drjdaly/tuplemerge $TUPLEMERGE_DIR &> /dev/null
+	git clone https://github.com.cnpmjs.org/drjdaly/tuplemerge $TUPLEMERGE_DIR &> /dev/null
 	cd $TUPLEMERGE_DIR
 	git checkout tags/v1.0 &> /dev/null
 	echo "ok"
